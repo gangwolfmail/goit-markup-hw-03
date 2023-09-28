@@ -6,8 +6,66 @@ body {
   background-color: #fff;
 }
 
+/* * ====== Global style reset=======*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
 ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
+}
+/** =================================== */
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* *=======header========= */
+
+.header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .header-logo {
@@ -53,8 +111,12 @@ ul {
   font-style: normal;
 }
 
+/* * ============Hero section================ */
+
 .hero-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
 .hero-title {
@@ -64,7 +126,10 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
+  margin: 0 auto; */
 }
+
 .hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -76,20 +141,26 @@ ul {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.64px;
+  margin-top: 48px;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
   cursor: pointer;
 }
+/* *=================Strategy section============ */
 
-/* Section hidden */
+.strategy-subtitle {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .strategy-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .strategy-text {
   color: #434455;
@@ -100,9 +171,11 @@ ul {
   letter-spacing: 0.32px;
 }
 
-/* Section Our team */
+/**=============== Section Our team===============*/
 .third {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-section {
   color: #2e2f42;
@@ -113,7 +186,10 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   background-color: #f4f4fd;
+  margin-bottom: 72px;
 }
+
+
 .teams-name {
   background-color: #ffffff;
   color: #fff;
@@ -125,6 +201,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .person-job {
   color: #434455;
@@ -135,7 +212,8 @@ ul {
   letter-spacing: 0.32px;
 }
 
-/* Section Portfolio */
+/**=============== Section Portfolio================= */
+
 .section-portfolio {
   color: #2e2f42;
   text-align: center;
@@ -163,6 +241,9 @@ ul {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -174,6 +255,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  
 }
 .accent-footer {
   color: #f4f4fd;
@@ -183,4 +265,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  max-width: 264px;
+  margin-top: 17.5px;
 }
