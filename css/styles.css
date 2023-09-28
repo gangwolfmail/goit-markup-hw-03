@@ -127,7 +127,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 1.12px;
   max-width: 496px;
-  margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -189,7 +189,6 @@ ul {
   margin-bottom: 72px;
 }
 
-
 .teams-name {
   background-color: #ffffff;
   color: #fff;
@@ -214,6 +213,11 @@ ul {
 
 /**=============== Section Portfolio================= */
 
+.section-main-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-portfolio {
   color: #2e2f42;
   text-align: center;
@@ -222,6 +226,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-name {
   color: #2e2f42;
@@ -236,6 +241,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-top: 8px;
 }
 
 /* Footer */
@@ -243,7 +249,6 @@ ul {
   background-color: #2e2f42;
   padding-top: 101.5px;
   padding-bottom: 100px;
-
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -255,11 +260,11 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  
 }
 .accent-footer {
   color: #f4f4fd;
 }
+
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
