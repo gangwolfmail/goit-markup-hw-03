@@ -45,7 +45,7 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .visually-hidden {
@@ -64,8 +64,19 @@ ul {
 /* *=======header========= */
 
 .header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  /* padding-top: 25.5px; */
+  /* padding-bottom: 25.5px; */
+}
+
+.div-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-logo {
@@ -77,16 +88,31 @@ ul {
   text-decoration: none;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  display: flex;
+  margin-right: 76px;
 }
 .accent {
   color: #2e2f42;
 }
+
+.header-nav-ul {
+  display: flex;
+  gap: 40px;
+}
+
+.address-link {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0 24px 332px;
+}
+
 .header-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .header-link:hover {
   color: #404bbf;
@@ -116,7 +142,7 @@ ul {
 .hero-section {
   background-color: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -141,8 +167,15 @@ ul {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.64px;
+  padding: 16px 32px;
+  display: block;
+  border-radius: 4px;
+  height: 56px;
+  min-width: 169px;
+  margin: 0 auto;
   margin-top: 48px;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
@@ -187,6 +220,11 @@ ul {
   text-transform: capitalize;
   background-color: #f4f4fd;
   margin-bottom: 72px;
+}
+
+.ul-teams-name {
+  display: flex;
+  gap: 24px;
 }
 
 .teams-name {
