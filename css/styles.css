@@ -66,13 +66,13 @@ ul {
 .main-header {
   /* padding-top: 25.5px; */
   /* padding-bottom: 25.5px; */
-  /* border-bottom: 1px solid #e7e9fc; */
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .div-header {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #e7e9fc;
+  /* border-bottom: 1px solid #e7e9fc; */
 }
 
 .header-nav {
